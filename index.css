@@ -247,7 +247,7 @@ body {
 
 .route-line {
     fill: none;
-    stroke: #ffb5bf;
+    stroke: pink;
     stroke-width: 5;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -256,8 +256,8 @@ body {
 }
 
 .pin {
-    fill: #ff4d4d;
-    stroke: #fff;
+    fill: #ff746c;
+    stroke: #ff746c;
     stroke-width: 3;
     animation: pulse 1.8s infinite;
 }
@@ -265,7 +265,7 @@ body {
 .label {
     position: absolute;
     color: #55370b;
-    font-size: 14px;
+    /* font-size: 16px; */
     font-weight: 600;
     transform: translate(-50%, -50%);
 }
@@ -273,22 +273,22 @@ body {
 /* Position labels using percentages */
 .cyber {
     left: 8%;
-    top: 88%;
+    top: 90%;
 }
 
 .kl {
     left: 36%;
-    top: 53%;
+    top: 63%;
 }
 
 .kuantan {
     left: 71%;
-    top: 67%;
+    top: 72%;
 }
 
 .tg {
     left: 95%;
-    top: 28%;
+    top: 38%;
 }
 
 @keyframes pulse {
@@ -357,9 +357,9 @@ h1 {
     align-content: center;
     padding: 16px;
     border-radius: 12px;
-    border: 3px solid #55370b;
-    background: transparent;
-    color: #55370b;
+    border: 3px solid #f7ebd5;
+    background: #55370b;
+    color: white;
     text-decoration: none;
     font-weight: bold;
 
@@ -393,7 +393,7 @@ h1 {
 }
 
 .platform-button:hover {
-    color: #55370b;
+    color: white;
     cursor: pointer;
     text-decoration: none;
 }
@@ -403,7 +403,7 @@ h1 {
     position: absolute;
     height: 80px;
     width: 35px;
-    background-image: url("clip.png");
+    /* background-image: url("clip.png"); */
     background-size: cover;
     background-position: center;
     top: -30px;
